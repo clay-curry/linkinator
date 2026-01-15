@@ -103,7 +103,7 @@ export type CrawlResult = {
 	links: LinkResult[];
 };
 
-type CrawlOptions = {
+export type CrawlOptions = {
 	url: URL;
 	parent?: string;
 	crawl: boolean;
